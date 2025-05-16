@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de Página com Estrutura Organizada</title>
+  
+    <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #eaeaea;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <h1>Minha Página Organizada</h1>
+        <nav>
+            <ul>
+                <li><a href="#sec1">Seção 1</a></li>
+                <li><a href="#sec2">Seção 2</a></li>
+                <li><a href="#sec3">Seção 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal dividido em seções dentro de divs -->
+    <div>
+        <section id="sec1">
+            <h2>Seção 1</h2>
+            <p>Este é o conteúdo da primeira seção. Aqui você pode inserir informações relevantes.</p>
+        </section>
+
+        <section id="sec2">
+            <h2>Seção 2</h2>
+            <p>Este é o conteúdo da segunda seção. Adicione detalhes importantes aqui.</p>
+        </section>
+
+        <section id="sec3">
+            <h2>Seção 3</h2>
+            <p>Este é o conteúdo da terceira seção. Finalize com informações de contato ou outros dados.</p>
+        </section>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
